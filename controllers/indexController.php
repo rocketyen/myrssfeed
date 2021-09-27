@@ -1,3 +1,4 @@
+
 <?php
 
 include('../views/templates/header.php');
@@ -6,6 +7,7 @@ include('../views/templates/footer.php');
 $error = [];
 if($_SERVER['REQUEST_METHOD'] == 'POST'){
 
+?>
 
 
 }
