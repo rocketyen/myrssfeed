@@ -57,7 +57,7 @@
                     class="offset-5 case mb-5"
                     onClick="doAction()"
                     value="<?= htmlspecialchars($news ?? '') ?>" 
-                    d="news" 
+                    id="news" 
                     name="news">
             <label for="news">Les dernières sorties Jeux Vidéos </label>
         </div>
