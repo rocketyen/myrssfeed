@@ -10,4 +10,7 @@
             }
         }
     }
-}
+    if(z < max){
+        window.alert('Nombre de choix insufissant');
+    } 
+ }    
