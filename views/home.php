@@ -1,5 +1,5 @@
 <?php
-echo '<div class="container"><div class="row"><ul>';
+echo '<div class="container"><div class=""><ul>';
 foreach($rss->channel->image as $item1){
     echo '<li>' .$item1->title. '<a href="'.$item1->link.'" target="blank"><img src="'.$item1->url.'"></a> </li>';
 }
