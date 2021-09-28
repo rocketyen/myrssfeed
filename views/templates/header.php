@@ -25,9 +25,9 @@
       <nav class="navbar navbar-light bg-secondary">
           <div class="container">
           <div class="justify-content-start">
-          <button class="btn " type="button">Sujet 1</button>
-          <button class="btn " type="button">Sujet 2</button>
-          <button class="btn " type="button">Sujet 3</button>
+          <button class="btn " type="button" name="sub1" value="<?= $sub ?>">Sujet 1</button>
+          <button class="btn " type="button" name="sub2" value="<?= $sub ?>">Sujet 2</button>
+          <button class="btn " type="button" name="sub3" value="<?= $sub ?>">Sujet 3</button>
           </div>
           <div class="justify-content-end">
           <a href="parametersController.php">
