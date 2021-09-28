@@ -13,7 +13,7 @@
 
 <body>
 <header>
-    <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-secondary">
+    <nav class="navbar navbar-expand-md navbar-dark bg-transparent">
       <div class="container">   
         <div class="row">
       <div class="col-md-4 mx-auto">  
@@ -22,16 +22,16 @@
      </figure>
  </div>
  <div class="container-fluid">
-      <nav class="navbar navbar-light bg-secondary">
+      <nav class="navbar navbar-light bg-transparent">
           <div class="container">
           <div class="justify-content-start">
-          <button class="btn " type="button">Sujet 1</button>
-          <button class="btn " type="button">Sujet 2</button>
-          <button class="btn " type="button">Sujet 3</button>
+          <button class="btn btn-secondary" type="button">Sujet 1</button>
+          <button class="btn btn-secondary" type="button">Sujet 2</button>
+          <button class="btn btn-secondary" type="button">Sujet 3</button>
           </div>
           <div class="justify-content-end">
           <a href="parametersController.php">
-          <button class="btn " type="button">Paramétres</button>
+          <button class="btn btn-secondary " type="button">Paramétres</button>
           </a>
           </div>
           </div>

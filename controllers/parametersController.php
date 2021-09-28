@@ -16,4 +16,8 @@ $flux = filter_input(INPUT_POST, 'flux', FILTER_REQUIRE_ARRAY);
 // }
 // }
 include('../views/templates/footer.php');
+
+
+
+
 ?>
