@@ -31,7 +31,7 @@
           </div>
           <div class="justify-content-end">
           <a href="parametersController.php">
-          <button class="btn " type="button">Paramétres</button>
+          <button class="btn " type="button">Paramètres</button>
           </a>
           </div>
           </div>
