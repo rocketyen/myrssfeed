@@ -13,7 +13,7 @@
 
 <body>
 <header>
-    <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-secondary">
+    <nav class="navbar navbar-expand-md navbar-dark bg-secondary">
       <div class="container">   
         <div class="row">
       <div class="col-md-4 mx-auto">  
