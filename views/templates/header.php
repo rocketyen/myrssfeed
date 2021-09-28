@@ -13,7 +13,7 @@
 
 <body>
 <header>
-    <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-secondary">
+    <nav class="navbar navbar-expand-md navbar-dark bg-secondary">
       <div class="container">   
         <div class="row">
       <div class="col-md-4 mx-auto">  
@@ -25,13 +25,13 @@
       <nav class="navbar navbar-light bg-secondary">
           <div class="container">
           <div class="justify-content-start">
-          <button class="btn " type="button">Sujet 1</button>
-          <button class="btn " type="button">Sujet 2</button>
-          <button class="btn " type="button">Sujet 3</button>
+          <button class="btn" type="button"><a href="/controllers/pagesController.php"><?= $sujet1 ?></a></button>
+          <button class="btn" type="button"><a href="/controllers/pagesController.php"><?= $sujet2 ?></a></button>
+          <button class="btn" type="button"><a href="/controllers/pagesController.php"><?= $sujet3 ?></a></button>
           </div>
           <div class="justify-content-end">
           <a href="parametersController.php">
-          <button class="btn " type="button">Paramétres</button>
+          <button class="btn" type="button">Paramètres</button>
           </a>
           </div>
           </div>

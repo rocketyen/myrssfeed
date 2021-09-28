@@ -1,7 +1,3 @@
-<?php
-include('../views/templates/header.php');
-include('../class.rss.php');
-?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>

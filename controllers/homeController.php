@@ -1,6 +1,6 @@
 
 <?php
-
+include(dirname(__FILE__).'/generalController.php');
 $error = [];
 
 
