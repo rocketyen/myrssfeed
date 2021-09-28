@@ -9,8 +9,8 @@ $tips = 'https://www.jeuxactu.com/rss/tips.rss';
 $news = 'https://www.jeuxactu.com/rss/sorties.rss';
 
 
-$url = "$tips"; /* insérer ici l'adresse du flux RSS de votre choix */
-$rss = simplexml_load_file($url);
+
+$rss = simplexml_load_file($actu);
 
 
 include('../views/templates/header.php');
