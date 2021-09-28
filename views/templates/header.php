@@ -10,55 +10,23 @@
 </head>
 <body>
 <header>
-
-<nav class="navbar navbar-expand-md fixed-top navbar-dark bg-secondary">
-
-  <div class="container">
-    
-    <div class="row">
-
-
-  <!-- Grid column -->
-  <div class="col-md-8 mx-auto">
-    
-  <figure class="figure">
-    <img src="img/ImgHeader.png" class="figure-img img-fluid rounded" alt="Logo HTML w3">
-    <figcaption class="figure-caption text-center">
- </figure>
-</div>
-
-
-
-<div class="container-fluid">
-<div class="row">
-
-
-<!-- Grid column -->
-<div class="col-md-12 mx-auto">
-  
-  <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item ">
-        <a class="btn btn-success fs-3 my-2 my-sm-0" href="#">Sujet 1 </a>
-      </li>
-      <li class="nav-item">
-        <a class="btn btn-success fs-3 my-2 my-sm-0" href="#">Sujet 2</a>
-      </li>
-      <li class="nav-item">
-        <a class="btn btn-success fs-3 my-2 my-sm-0" href="#">Sujet 3</a>
-      </li>
-        </div>
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <button class="btn btn-success fs-3 my-2 my-sm-0" type="button">Commentaires</button>
-    </form>
-  </div>
-</nav>
+    <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-secondary">
+      <div class="container">   
+        <div class="row">
+      <div class="col-md-4 mx-auto">  
+      <figure class="figure">
+        <img src="img/ImgHeader.png" class=" img-fluid rounded alt="Logo">  
+     </figure>
+ </div>
+ <div class="container-fluid">
+      <nav class="navbar navbar-light bg-secondary">
+        <form class="form-inline">
+          <button class="btn btn-success" type="button">Sujet 1</button>
+          <button class="btn btn-success" type="button">Sujet 2</button>
+          <button class="btn btn-success" type="button">Sujet 3</button>
+          <button class="btn btn-success" type="button">Paramétres</button>
+        </form>
+      </nav>
 </div> 
-</div>      
 </header>
+</body>
