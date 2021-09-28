@@ -35,8 +35,6 @@
 
 <!-- Grid column -->
 <div class="col-md-12 mx-auto">
-
-
   
   <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
     <span class="navbar-toggler-icon"></span>
