@@ -1,5 +1,5 @@
 
-<form action="indexController.php" method="POST" class="bg-dark checkbox-white text-white">
+<form action="homeController.php" method="POST" class="bg-dark checkbox-white text-white">
     <h1 class="text-center mb-5 mt-5 pt-5">
         Quels sont vos centres d'intérets préférés (Faire 3 choix) ?
     </h1>

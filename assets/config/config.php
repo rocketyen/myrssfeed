@@ -7,10 +7,9 @@
             'https://www.jeuxactu.com/rss/sorties.rss'
             ];
 
-            setcookie('flux', $flux[4],time()+3600);
-            setcookie('flux1',$flux[4],time()+3600);
-            setcookie('flux2',$flux[4],time()+3600);
+           
+
             $rss = simplexml_load_file($_COOKIE['flux']);
-            $rss2 = simplexml_load_file($_COOKIE['flux']);
-            $rss3 = simplexml_load_file($_COOKIE['flux']);
+            $rss2 = simplexml_load_file($_COOKIE['flux1']);
+            $rss3 = simplexml_load_file($_COOKIE['flux2']);
 ?>

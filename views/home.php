@@ -6,7 +6,7 @@ echo '<div class="container"><div class="row"><div class="col-4"><ul>';
 
 // boucle pour 1er flux
 foreach ($rss->channel->image as $item1) {
-    echo '<li>' . $item1->title . '<a href="' . $item1->link . '" target="blank"><img src="' . $item1->url . '"></a> </li>';
+    echo '<a href="' . $item1->link . '" target="blank"><img src="' . $item1->url . '"></a>';
 }
 
 foreach ($rss->channel->item as $item) {
@@ -22,7 +22,7 @@ echo '</ul></div>';
 // boucle pour 2eme flux
 echo '<div class="col-4"><ul>';
 foreach ($rss2->channel->image as $item1) {
-    echo '<li>' . $item1->title . '<a href="' . $item1->link . '" target="blank"><img src="' . $item1->url . '"></a> </li>';
+    echo '<a href="' . $item1->link . '" target="blank"><img src="' . $item1->url . '"></a>';
 }
 
 foreach ($rss2->channel->item as $item) {
@@ -38,7 +38,7 @@ echo '</ul></div>';
 // boucle pour 3eme flux
 echo '<div class="col-4"><ul>';
 foreach ($rss3->channel->image as $item1) {
-    echo '<li>' . $item1->title . '<a href="' . $item1->link . '" target="blank"><img src="' . $item1->url . '"></a> </li>';
+    echo '<a href="' . $item1->link . '" target="blank"><img src="' . $item1->url . '"></a>';
 }
 
 foreach ($rss3->channel->item as $item) {

@@ -1,15 +1,18 @@
 
 <?php
 
+require_once(dirname(__FILE__).'/../assets/config/config.php');
 
-include('../assets/config/config.php');
 
 $error = [];
 
-include('../views/templates/header.php');
-include('../views/home.php');
-include('../views/templates/footer.php');
 
 
+
+
+
+include(dirname(__FILE__).'/../views/templates/header.php');
+include(dirname(__FILE__).'/../views/home.php');
+include(dirname(__FILE__).'/../views/templates/footer.php');
 
 ?>
