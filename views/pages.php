@@ -7,11 +7,11 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="offset-4 col-4 form-label mt-2"><?= $actu ?></div>
-    <div class="offset-4 col-4 form-label mt-2"><?= $test ?></div>
-    <div class="offset-4 col-4 form-label mt-2"><?= $ps5 ?></div>
-    <div class="offset-4 col-4 form-label mt-2"><?= $tips ?></div>
-    <div class="offset-4 col-4 form-label mt-2"><?= $news ?></div>
+    <div class="offset-4 col-4 form-label mt-2"><?= $sujet1 ?></div>
+    <div class="offset-4 col-4 form-label mt-2"><?= $sujet2 ?></div>
+    <div class="offset-4 col-4 form-label mt-2"><?= $sujet3 ?></div>
+    <div class="offset-4 col-4 form-label mt-2"></div>
+    <div class="offset-4 col-4 form-label mt-2"></div>
     <!--DEBUT DE MES CARDS-->
 <div class="container">
     <div class="row">
