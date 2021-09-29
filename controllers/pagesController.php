@@ -1,6 +1,6 @@
 <?php
 require_once(dirname(__FILE__).'/generalController.php');
-require_once(dirname(__FILE__).'/../assets/config/config.php');
+require_once(dirname(__FILE__).'/../config/config.php');
 
 $sujet1 = '<a href="'.$rss.'"></a>';
 

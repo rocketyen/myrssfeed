@@ -17,7 +17,7 @@
         value="<?= $flux[0] ?>" 
         id="actu" 
         name="flux[]">
-        <label for="actu">Actualités du Jeu Video</label>
+        <label for="actu"> Actualités du Jeu Video</label>
     </div>
     <div class="form-group mt-2">
         <input type="checkbox" 
