@@ -27,10 +27,8 @@ $flux = filter_input(INPUT_POST, 'flux', FILTER_REQUIRE_ARRAY);
 // }
 
 
+include(dirname(__FILE__).'/../views/templates/header.php');
+include(dirname(__FILE__).'/../views/parameters.php');
+include(dirname(__FILE__).'/../views/templates/footer.php');
 
-
-include('../views/templates/header.php');
-
-include('../views/parameters.php');
-include('../views/templates/footer.php');
 ?>
