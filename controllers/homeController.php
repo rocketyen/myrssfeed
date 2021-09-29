@@ -1,6 +1,7 @@
 
 <?php
 
+
 require_once(dirname(__FILE__).'/../config/config.php');
 include(dirname(__FILE__).'/generalController.php');
 $error = [];
