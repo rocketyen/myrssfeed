@@ -19,7 +19,7 @@
         <div class="row">
       <div class="col-md-4 mx-auto">  
       <figure class="figure">
-        <img src="../assets/img/ImgHeader.png" class=" img-fluid rounded alt="Logo">  
+        <img src="../assets/img/ImgHeader.png" class="img-fluid rounded" alt="Logo">  
      </figure>
  </div>
  <div class="container-fluid">

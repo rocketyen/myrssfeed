@@ -4,6 +4,13 @@
         Quels sont vos centres d'intérets préférés (Faire 3 choix) ?
     </h1>
     <div class="form-group mt-2">
+        <label for="actu"  class="offset-5 case">Mode : </label>
+        <label for="actu" value="light">Clair</label>
+        <input type="radio" value="light">
+        <label for="actu" value="dark">Foncé</label>        
+        <input type="radio" value="dark">
+    </div>
+    <div class="form-group mt-2">
         <input type="checkbox" 
         class="offset-5 case" 
         onClick="doAction()" 
