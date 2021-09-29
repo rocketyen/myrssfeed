@@ -5,40 +5,28 @@ $error = [];
 
 if($_SERVER['REQUEST_METHOD'] == 'POST'){
 
-    $flux1 = trim(filter_input(INPUT_POST, 'lastname', FILTER_SANITIZE_STRING));
-    $flux2 = trim(filter_input(INPUT_POST, 'lastname', FILTER_SANITIZE_STRING));
-    $flux3 = trim(filter_input(INPUT_POST, 'lastname', FILTER_SANITIZE_STRING));
+    $mode = trim(filter_input(INPUT_POST, 'mode', FILTER_SANITIZE_STRING));
+    $flux = filter_input(INPUT_POST, 'flux', FILTER_SANITIZE_URL, FILTER_REQUIRE_ARRAY);
+    $numberArticle = intval(trim(filter_input(INPUT_POST, 'numberArticle', FILTER_SANITIZE_NUMBER_INT)));
 
-    setcookie('flux', $flux[$flux1],time()+3600);
-    setcookie('flux1',$flux[$flux2],time()+3600);
-    setcookie('flux2',$flux[$flux3],time()+3600);
-
-
-}
-// if($_SERVER['REQUEST_METHOD'] == 'POST'){
-
-if($_SERVER['REQUEST_METHOD'] == 'POST'){
-    // $flux[0] = filter_input(INPUT_POST, 'flux[]', FILTER_REQUIRE_ARRAY);
-    // if(!empty($flux[0])){
-    //     $sub['sub1'] = 'Actualités du Jeu Video';
+    if($mode != 'dark' && $mode != 'light' ){
+        $error['mode'] = 'mode manquant';
+    }
+    // if($flux != 'flux'){
+    //     $error['flux'] = 'flux invalide faire trois selection';
     // }
-    // setcookie($flux[]);
 
-    $flux[1] = filter_input(INPUT_POST, 'flux[]', FILTER_REQUIRE_ARRAY);
-    $flux[2] = filter_input(INPUT_POST, 'flux[]', FILTER_REQUIRE_ARRAY);
-    $flux[3] = filter_input(INPUT_POST, 'flux[]', FILTER_REQUIRE_ARRAY);
-    $flux[4] = filter_input(INPUT_POST, 'flux[]', FILTER_REQUIRE_ARRAY);
-//     setcookie($flux[]);
-// } 
-
-$darkMode = intval(trim(filter_input(INPUT_POST, 'darkMode', FILTER_SANITIZE_NUMBER_INT)));
-
-// $nbNews = intval(trim(filter_input(INPUT_POST, 'nbNews', FILTER_SANITIZE_NUMBER_INT)));
-// $flux = filter_input(INPUT_POST, 'flux', FILTER_REQUIRE_ARRAY);
-// if($darkMode!=1 && $darkMode !=0){
-//     $error
+    if($numberArticle != 3 && $numberArticle != 6 && $numberArticle != 9){
+        $error['numberArticle'] = 'nombre invalide';
+    }  
+    if(empty ($error)){
+        setcookie('mode', $mode, time()+3600);
+        setcookie('flux', json_encode($flux), time()+3600);
+        setcookie('numberArticle', $numberArticle, time()+3600);
+    }  
+    var_dump($error);
 }
-// }
+
 include(dirname(__FILE__).'/../views/templates/header.php');
 include(dirname(__FILE__).'/../views/parameters.php');
 include(dirname(__FILE__).'/../views/templates/footer.php');

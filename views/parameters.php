@@ -1,14 +1,14 @@
 
-<form action="homeController.php" method="POST" class="bg-dark checkbox-white text-white">
+<form action="" method="POST" class="bg-dark checkbox-white text-white">
     <h1 class="text-center mb-5 mt-5 pt-5">
         Quels sont vos centres d'intérets préférés (Faire 3 choix) ?
     </h1>
     <div class="form-group mt-2">
         <label for="actu"  class="offset-5 case">Mode : </label>
-        <label for="actu" value="light">Clair</label>
-        <input type="radio" value="light">
+        <label for="actu" value="light" >Clair</label>
+        <input type="radio" value="light" name="mode">
         <label for="actu" value="dark">Foncé</label>        
-        <input type="radio" value="dark">
+        <input type="radio" value="dark" name="mode">
     </div>
     <div class="form-group mt-2">
         <input type="checkbox" 
@@ -48,12 +48,20 @@
     </div>
     <div class="form-group mt-2">
         <input type="checkbox" 
-        class="offset-5 case mb-5" 
+        class="offset-5 case mb-3" 
         onClick="doAction()" 
         value="<?= $flux[4] ?>" 
         id="news" 
         name="flux[]">
         <label for="news">Les dernières sorties Jeux Vidéos </label>
+    </div>
+    <div>
+    <label for="actu"  class="offset-5 case">Nombre d'affichage par page : </label>
+        <select name="numberArticle" id="">
+            <option value="3">3</option>
+            <option value="6">6</option>
+            <option value="9">9</option>
+        </select>
     </div>
     <div class="button">
         <button type="submit" class="btn btn-primary offset-4 col-4 mt-3 mb-5">Valider le formulaire</button>
